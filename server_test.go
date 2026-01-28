@@ -10,7 +10,7 @@ import (
 )
 
 func TestGistsAPI_PrintURLs(t *testing.T) {
-    url := "http://localhost:8080/octocat?page=1&per_page=50" // you can adjust per_page
+    url := "http://localhost:8080/Shehbab-Kakkar?page=1&per_page=50" // you can adjust per_page
 
     resp, err := http.Get(url)
     if err != nil {
