@@ -36,7 +36,7 @@ func TestGistsAPI_PrintURLs(t *testing.T) {
         t.Errorf("Expected at least 1 gist, got 0")
     }
 
-    fmt.Println("Gist URLs for user octocat:")
+    fmt.Println("Gist URLs for user Shehbab-Kakkar:")
     for _, gist := range gists {
         if htmlURL, ok := gist["html_url"].(string); ok {
             fmt.Println(htmlURL)
