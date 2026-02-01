@@ -8,8 +8,8 @@ on:
 
 jobs:
   build-test:
-    #runs-on: ubuntu-latest
-    runs-on: arc-runner-set
+    runs-on: ubuntu-latest
+    #runs-on: arc-runner-set
     steps:
       # Checkout repo
       - name: Checkout code
