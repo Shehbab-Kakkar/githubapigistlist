@@ -8,8 +8,8 @@ on:
 
 jobs:
   build-test:
-    runs-on: ubuntu-latest
-
+    #runs-on: ubuntu-latest
+    runs-on: [self-hosted, kind, local]
     steps:
       # Checkout repo
       - name: Checkout code
